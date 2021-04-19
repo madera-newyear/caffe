@@ -23,6 +23,7 @@ public class t
 		final RequestConfig config = RequestConfig.custom ().setConnectTimeout (timeout).setSocketTimeout (timeout).build ();
 
 		httpClient = HttpClientBuilder.create ().setDefaultRequestConfig (config).build ();
+		/* Test comment */
 		return httpClient;
 	}
 
